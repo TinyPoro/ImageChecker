@@ -6,9 +6,7 @@
             "email": "ngophuongtuan@gmail.com"
         }
     ],
-    "require": {
-        "guzzlehttp/guzzle": "^6.3"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {"Poro\\Algorithm\\": "src"}
     }
