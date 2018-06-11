@@ -6,10 +6,16 @@
             "email": "ngophuongtuan@gmail.com"
         }
     ],
-    "require": {
-        "guzzlehttp/guzzle": "^6.3"
-    },
+    "keywords": ["image_checker"],
+    "license": "MIT",
+    "require": {},
     "autoload": {
+        "classmap": [
+            "src/"
+        ],
         "psr-4": {"Poro\\Algorithm\\": "src"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
     }
 }

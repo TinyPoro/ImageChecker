@@ -9,7 +9,6 @@
 namespace Poro\Image_Checker;
 
 
-use GuzzleHttp\Client;
 
 class ImageChecker
 {
