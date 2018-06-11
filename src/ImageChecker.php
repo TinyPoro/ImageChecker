@@ -24,7 +24,7 @@ class ImageChecker
     }
 
     public function download($url){
-        $input_dir = env(IMAGE_STORAGE, '/home/tun/Pictures');
+        $input_dir = env(IMAGE_STORAGE, '/home/'.get_current_user().'/Pictures');
         $ext = pathinfo($url, PATHINFO_EXTENSION);
 
         $path = $input_dir."/".str_random(10).".$ext";
